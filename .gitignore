@@ -1,4 +1,3 @@
-# Python-specific
 *.pyc            # Python compiled files
 *.pyo            # Python optimized files
 *.pyd            # Python debug files
