@@ -39,7 +39,7 @@ class DockerAlertHandler:
             return
         
         retry_count = self.retry_attempts.get(unit, 0)
-        backoff_time = 1  # initial backoff time in seconds
+        backoff_time = 10  # initial backoff time in seconds
         
         while retry_count < self.max_retries:
             try:
